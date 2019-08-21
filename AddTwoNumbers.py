@@ -17,7 +17,7 @@
 #         self.val = x
 #         self.next = None
 
-class Solution:
+class AddTwoNumbers:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         remainder = 0
         nodeHead = ListNode(0)
